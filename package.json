@@ -1,6 +1,6 @@
 {
     "name": "@fewbox/theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "FewBox official theme",
     "main": "dist/index.js",
     "scripts": {
