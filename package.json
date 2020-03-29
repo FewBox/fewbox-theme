@@ -1,0 +1,38 @@
+{
+    "name": "@fewbox/theme",
+    "version": "0.0.1",
+    "description": "FewBox official theme",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint . --ext .ts",
+        "lint:fix": "yarn lint --fix",
+        "test": "yarn lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FewBox/fewbox-theme.git"
+    },
+    "keywords": [
+        "theme"
+    ],
+    "author": "fewbox",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FewBox/fewbox-theme/issues"
+    },
+    "homepage": "https://github.com/FewBox/fewbox-theme#readme",
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@types/node": "^12.7.12",
+        "@typescript-eslint/eslint-plugin": "^1.13.0",
+        "@typescript-eslint/parser": "^1.13.0",
+        "eslint": "^6.1.0",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2",
+        "typescript": "^3.5.3"
+    }
+}
